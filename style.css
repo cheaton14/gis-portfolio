@@ -154,4 +154,38 @@ html {
     .project-content {
         padding: 20px;
     }
+/* ---------- Individual Project Pages ---------- */
+
+.project-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-map {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 25px auto 45px auto;
+    border: 1px solid #d6dbd5;
+    border-radius: 8px;
+}
+
+.project-page ul {
+    max-width: 800px;
+    line-height: 1.7;
+}
+
+.project-page li {
+    margin-bottom: 10px;
+}
+
+/* ---------- Project Pages on Mobile ---------- */
+
+@media (max-width: 700px) {
+    .project-map {
+        width: 100%;
+        height: auto;
+        margin: 20px auto 35px auto;
+    }
 }
