@@ -143,13 +143,6 @@ html {
 .project-link:hover {
     text-decoration: underline;
 }
-
-@media (max-width: 700px) {
-
-    .project-card img {
-        height: 200px;
-    }
-
     .project-content {
         padding: 20px;
     }
@@ -163,8 +156,9 @@ html {
         grid-template-columns: 1fr;
     }
 
+    @media (max-width: 700px) {
     .project-card img {
-        height: 300px;
+        height: 200px;
     }
 
     .project-content {
