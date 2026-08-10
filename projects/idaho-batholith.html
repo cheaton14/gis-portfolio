@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idaho Batholith Land Cover Change | Cameron Heaton</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+    </nav>
+
+    <section class="project-page">
+
+        <p>
+            <a href="../index.html#projects">← Back to Projects</a>
+        </p>
+
+        <h1>Idaho Batholith Land Cover Change & Disturbance Analysis</h1>
+
+        <p class="project-tools">
+            ArcGIS Pro • NLCD • Raster Analysis • Change Detection
+        </p>
+
+        <h2>Project Overview</h2>
+
+        <p>
+            This project evaluated land-cover change within the Idaho Batholith
+            ecoregion between 2011 and 2024. The analysis focused on identifying
+            which land-cover classes experienced the greatest increases and decreases
+            and whether observed vegetation transitions were consistent with wildfire
+            disturbance and ecological succession.
+        </p>
+
+        <h2>Methods</h2>
+
+        <p>
+            National Land Cover Database (NLCD) rasters from 2011 and 2024 were
+            projected into a common coordinate system and clipped to the Idaho Batholith
+            Level III Ecoregion in ArcGIS Pro. Land-cover statistics were calculated
+            for each class to determine net area and percent change between the two
+            years.
+        </p>
+
+        <p>
+            The ArcGIS Pro Combine tool was used to overlay the 2011 and 2024
+            classifications and identify pixel-level transitions between vegetation
+            classes. Major transitions were then summarized to evaluate disturbance
+            and recovery patterns across the study area.
+        </p>
+
+        <h2>2011 Land Cover</h2>
+
+        <img
+            class="project-map"
+            src="../LandCover2011.jpg"
+            alt="2011 NLCD land cover map for the Idaho Batholith ecoregion"
+        >
+
+        <h2>2024 Land Cover</h2>
+
+        <img
+            class="project-map"
+            src="../LandCover2024.jpg"
+            alt="2024 NLCD land cover map for the Idaho Batholith ecoregion"
+        >
+
+        <h2>Land Cover Change: 2011–2024</h2>
+
+        <img
+            class="project-map"
+            src="../LandCoverChange.jpg"
+            alt="Map showing areas of land cover change within the Idaho Batholith from 2011 to 2024"
+        >
+
+        <h2>Key Results</h2>
+
+        <ul>
+            <li>
+                Evergreen forest decreased by approximately 3,532 km²,
+                representing a 12.0% decline.
+            </li>
+
+            <li>
+                Shrub/scrub increased by approximately 5,482 km²,
+                representing a 35.9% increase.
+            </li>
+
+            <li>
+                Grassland/herbaceous vegetation decreased by approximately
+                1,978 km², or 22.1%.
+            </li>
+
+            <li>
+                The largest vegetation transition was grassland/herbaceous
+                to shrub/scrub, totaling approximately 4,755.5 km².
+            </li>
+
+            <li>
+                Evergreen forest to shrub/scrub accounted for approximately
+                3,081.8 km² of transition.
+            </li>
+
+            <li>
+                Land-cover change occurred in distinct clusters, while large
+                portions of the ecoregion remained unchanged.
+            </li>
+        </ul>
+
+        <h2>Interpretation</h2>
+
+        <p>
+            The dominant pattern was a decline in evergreen forest accompanied
+            by shrub expansion and localized forest regeneration. Forest-to-shrub
+            and forest-to-grassland transitions were consistent with disturbance
+            patterns associated with wildfire, while shrub-to-forest transitions
+            indicated localized vegetation recovery and ecological succession.
+        </p>
+
+        <h2>Limitations & Future Work</h2>
+
+        <p>
+            This analysis compared two NLCD time periods and therefore did not
+            capture annual vegetation changes or individual disturbance events.
+            Future analysis could incorporate MTBS burn-severity data, annual
+            Landsat imagery, and climate observations to more directly evaluate
+            relationships between wildfire, climate variability, and vegetation
+            recovery.
+        </p>
+
+        <h2>Skills Demonstrated</h2>
+
+        <p>
+            ArcGIS Pro, raster processing, NLCD analysis, change detection,
+            reclassification, raster overlay, spatial data management, area
+            calculations, cartographic design, ecological interpretation,
+            and environmental GIS.
+        </p>
+
+    </section>
+
+</body>
+
+</html>
