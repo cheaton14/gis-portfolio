@@ -164,7 +164,7 @@ html {
 .project-map {
     display: block;
     width: 100%;
-    max-width: 850px;
+    max-width: 600px;
     height: auto;
     margin: 25px auto 45px auto;
     border: 1px solid #d6dbd5;
