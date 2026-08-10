@@ -1,0 +1,66 @@
+/* ---------- Basic Page Setup ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f5f2;
+    color: #252a26;
+    line-height: 1.6;
+}
+
+
+/* ---------- Main Content ---------- */
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+
+/* ---------- Headings ---------- */
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #24382d;
+}
+
+h2 {
+    color: #3d5947;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #2f4035;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+
+/* ---------- Paragraphs ---------- */
+
+p {
+    max-width: 800px;
+    font-size: 1.05rem;
+}
+
+
+/* ---------- Mobile Devices ---------- */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+}
